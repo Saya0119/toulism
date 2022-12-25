@@ -1,0 +1,116 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Log in</title>
+    <link rel="stylesheet" href="css/tour.css" />
+</head>
+<body>
+
+    
+        
+    <nav>
+          
+        <a href="../home/home.html">
+            <img src="../images/logo_saya.png" alt="SAYAKA">
+        </a>
+        <h1>Saya Tourism</h1>
+  </nav>
+
+  <div class="tour_context_spain">
+      
+      <h2>Fill information</h2>
+      
+  </div>
+
+<div class="name1">
+    <p>First name:</p>
+    <input type="text" class="firstname" maxlength="30" />
+</div> 
+
+<div class="name2">
+    <p>Last name:</p>
+    <input type="text" class="lastname" maxlength="30" />
+</div>  
+
+<div class="country">
+    <p>adress:</p>
+    <select id="NationalSelect" class="MyInput">
+
+        <option value="japan"selected="true">Japan</option>
+        <option value="usa" >United States</option>
+        <option value="china">China</option>
+        <option value="italy">Italy</option>
+        <option value="singapole">Singapole</option>
+
+    </select> 
+</div> 
+
+
+<div class="comment">
+    <p>Comments:</p>
+    <textarea class="MyInput" rows="5" cols="60" id="CommentsTextBox"></textarea>
+</div>   
+
+<div class="selectphoneType">
+
+    <div class="sec1">
+       <p>Phone:</p>
+       <input type="text"  name="list" id="inputItem" value=""> 
+       <input type="button" id="AddPhone" value="Add Phone"/>
+    </div>
+
+    <br><br>
+       
+
+    <div class="PhoneType">
+
+        <select class="PhoneTypeSelect">
+
+            <option value="">Select One:</option>
+
+            <option value="Mobile">Mobile</option>
+
+            <option value="Office">Office</option>
+
+        </select>
+
+   </div>
+  <br><br>
+  <div class="PhoneNumberDiv">
+        <p>Number:</p> 
+        <ol id="getNumber">
+            <li></li>
+        </ol>
+
+        
+
+   </div>
+        
+    
+</div>        
+
+
+<br><br>
+<div class="submit">
+
+    <input id="SubmitButton" type="button" value="Submit" />
+</div>    
+
+
+
+<footer>
+    <p>Copy right @ Saya 2022</p>
+</footer>
+
+
+<!-- jquery cdn -->
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.1/jquery.min.js"></script> 
+
+
+<!-- javascript or jquery file -->
+<script src="java/javascript.js"></script>
+</body>
+</html>

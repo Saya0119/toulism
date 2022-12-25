@@ -1,0 +1,453 @@
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+body{
+    background-color: #9BDAC0;
+}
+
+nav {
+    width: 96%;
+    height:220px;
+    display: flex;
+    /* justify-content: space-between; */
+}
+h1{
+    font-size: 80px;
+    font-family: 'Courier New', Courier, monospace;
+    font-style:italic;
+    font-weight: bold;
+    color: #5E8BB0;
+    margin-top:50px;
+    padding-left: 140px;
+}
+
+.tour_context_spain{
+    width: 96%;
+}
+
+.tour_context_spain>h2{
+     text-align: left;
+     margin-top: 10px;
+     font-size: 60px;
+     font-family: 'Courier New', Courier, monospace;
+     font-style: italic;
+     color:#AF9F30;
+}
+
+.name1{
+    width: 60%;
+    height:50px;
+    display: flex;
+    justify-content: space-evenly;
+    flex-basis: 30px;
+    align-items: center;
+}
+
+.name1>p{
+    width: 30%;
+    font-size: 30px;
+    color:navy;
+    font-style: italic;
+}
+
+.name1>.firstname{
+   width: 50%;
+   background-color: antiquewhite;
+   height: 38px;
+}
+
+.name2{
+    width: 60%;
+    height: 50px;
+    display: flex;
+    justify-content: space-evenly;
+    flex-basis: 30px;
+    align-items: center;
+}
+
+.name2>p{
+    width: 30%;
+    font-size: 30px;
+    color:navy;
+    font-style: italic;
+}
+
+.name2>.lastname{
+   width: 50%;
+   background-color: antiquewhite;
+   height: 38px;
+}
+
+.country{
+    width: 60%;
+    height:50px;
+    display: flex;
+    justify-content: space-evenly;
+    flex-basis: 30px;
+    align-items: center;
+}
+
+.country>p{
+    width: 30%;
+    font-size: 30px;
+    color:navy;
+    font-style: italic;
+}
+
+.country>.MyInput{
+   width: 50%;
+   background-color: antiquewhite;
+   height: 38px;
+}
+
+option{
+    font-size: 30px;
+    color: #5E8BB0;
+    font-style: italic;
+}
+
+.comment{
+    width: 60%;
+    height:250px;
+    display: flex;
+    justify-content: space-evenly;
+    
+    align-items: center;
+}
+
+.comment>p{
+    width: 30%;
+    font-size: 30px;
+    color:navy;
+    font-style: italic;
+}
+
+.comment>.MyInput{
+   width: 50%;
+   background-color: antiquewhite;
+   
+}
+
+.selectphoneType{
+    width: 80%;
+    align-items: center;
+}
+
+.sec1{
+    display: flex;
+    justify-content: space-evenly;
+    
+    align-items: center;
+}
+
+.sec1>p{
+    width: 20%;
+    font-size: 30px;
+    color:navy;
+    font-style: italic;
+}
+.sec1>#inputItem{
+    width: 30%;
+    height: 50px;
+}
+
+.sec1>#AddPhone{
+   width: 30%;
+   background-color: antiquewhite;
+   height: 38px;
+}
+.PhoneType{
+    width: 60%;
+    align-items: center;
+    text-align: center;
+}
+.PhoneTypeSelect {
+    width: 50%;
+    font-size: 30px;
+}
+
+.PhoneNumberDiv{
+    width: 60%;
+    align-items: center;
+    text-align: center;
+    
+}
+
+.PhoneNumberDiv>p{
+    width: 30%;
+    padding-left: 30px;
+}
+
+.PhoneNumberDiv>#getNumber{
+    width: 60%;
+    list-style: none;
+    
+}
+
+
+.submit{
+    width: 60%;
+    height:50px;
+    align-items: center;
+    text-align: center;
+}
+
+#SubmitButton{
+    width: 30%;
+    font-size: 30px;
+}
+
+.PhoneNumberDiv{
+    display: flex;
+    width: 60%;
+    height:50px;
+    align-items: center;
+    text-align: center;
+    font-size: 30px;
+    color:navy;
+    font-style: italic;
+}
+
+footer{
+    width: 96%;
+    height: 100px;
+}
+
+footer>p{
+    font-size: 20px;
+    color: #5E8BB0;
+    font-weight: 700;
+    margin-top: 60px;
+    margin-left: 20px;
+}
+
+
+@media(max-width:426px) {
+
+    nav {
+        width: 96%;
+        height:120px;
+        display: flex;
+        /* justify-content: space-between; */
+    }
+
+    nav img{
+        width: 70%;
+        
+        
+    }
+
+    h1 {
+        font-size: 40px;
+        font-family: 'Courier New', Courier, monospace;
+        font-style: italic;
+        font-weight: bold;
+        color: #5E8BB0;
+        margin-top: 10px;
+        padding-left: 30px;
+    } 
+
+    .tour_context_spain{
+        margin-left: 20px;
+    }
+
+    .tour_context_spain>h2 {
+        text-align: left;
+        margin-top: 10px;
+        font-size: 38px;
+        font-family: 'Courier New', Courier, monospace;
+        font-style: italic;
+        color: #AF9F30;
+    }
+
+    .name1{
+        width: 90%;
+        height:50px;
+        display: flex;
+        justify-content: space-evenly;
+        flex-basis: 30px;
+        align-items: center;
+        margin-left: 20px;
+    }
+
+    .name1>p{
+        width: 50%;
+        font-size: 24px;
+        color:navy;
+        font-style: italic;
+    }
+
+    .name2{
+        width: 90%;
+        height: 50px;
+        display: flex;
+        justify-content: space-evenly;
+        flex-basis: 30px;
+        align-items: center;
+        margin-left: 20px;
+    }
+    
+    .name2>p{
+        width: 50%;
+        font-size: 24px;
+        color:navy;
+        font-style: italic;
+    }
+
+    .country{
+        width: 90%;
+        height:50px;
+        display: flex;
+        justify-content: space-evenly;
+        flex-basis: 30px;
+        align-items: center;
+        margin-left: 20px;
+    }
+    
+    .country>p{
+        width: 50%;
+        font-size: 24px;
+        color:navy;
+        font-style: italic;
+    }
+
+    .comment{
+        width: 90%;
+        height:250px;
+        display: flex;
+        justify-content: space-evenly;
+        margin-left: 20px;
+        align-items: center;
+    }
+    
+    .comment>p{
+        width: 50%;
+        font-size: 24px;
+        color:navy;
+        font-style: italic;
+    }
+
+    .selectphoneType{
+        width: 90%;
+        margin-left: 20px;
+    }
+
+    .sec1>p{
+        width: 30%;
+        font-size: 24px;
+        color:navy;
+        font-style: italic;
+    }
+    .sec1>#inputItem{
+        width: 30%;
+        height: 50px;
+    }
+    .sec1>#AddPhone{
+        width: 30%;
+        background-color: antiquewhite;
+        height: 38px;
+        margin-left: 20px;
+    }
+
+    .PhoneTypeSelect{
+        width: 60%;
+        /* align-items: center; */
+        /* text-align: center; */
+        margin-left: 20px;
+        font-size: 24px;
+    } 
+
+    .PhoneType{
+        width: 250px;
+        margin-left: 20px;
+    }
+
+    .PhoneNumberDiv{
+        display: flex;
+        width: 90%;
+        height:50px;
+        align-items: center;
+        text-align: center;
+        font-size: 24px;
+        color:navy;
+        font-style: italic;
+    }
+
+    .PhoneNumberDiv>#getNumber{
+        width: 40%;
+        list-style: none;
+        font-size: 24px;
+        
+    }
+
+    .submit{
+        width: 70%;
+        height:50px;
+        align-items: center;
+        text-align: center;
+    }
+    
+    #SubmitButton{
+        width: 40%;
+        font-size: 24px;
+    }
+
+    
+}
+
+
+@media((min-width:426px) and (max-width:768px)) 
+{  
+    
+    .tour_context_spain{
+        text-align: center;
+        height: 60px;
+    }
+
+    .tour_context_spain>h2{
+        text-align: center;
+        margin-top: 30px;
+        font-size: 40px;
+        font-weight: 700;
+       
+   }
+
+   nav {
+        width: 96%;
+        height:120px;
+        display: flex;
+    
+        /* justify-content: space-between; */
+    }
+
+    nav img{
+        width: 70%;
+    
+    
+    
+        /* border: 2px solid blue; */
+    
+    }
+
+    h1 {
+        font-size: 50px;
+        font-family: 'Courier New', Courier, monospace;
+    
+    
+        font-style: italic;
+        font-weight: bold;
+        color: #5E8BB0;
+        margin-top: 10px;
+        padding-left: 10px;
+    } 
+
+}
+
+
+
+
+
+

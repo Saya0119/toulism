@@ -1,0 +1,669 @@
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+body{
+    background-color: #9BDAC0;
+}
+
+nav {
+    width: 96%;
+    height:220px;
+    display: flex;
+    /* justify-content: space-between; */
+}
+h1{
+    font-size: 80px;
+    font-family: 'Courier New', Courier, monospace;
+    font-style:italic;
+    font-weight: bold;
+    color: #5E8BB0;
+    margin-top:50px;
+    padding-left: 140px;
+}
+
+.tour_context_england{
+    width: 96%;
+}
+
+.tour_context_england>h2{
+     text-align: center;
+     margin-top: 10px;
+     font-size: 60px;
+     font-family: 'Courier New', Courier, monospace;
+     font-style: italic;
+     color:#AF9F30;
+}
+
+.tour{
+    display: flex;
+    width: 96%;
+    
+}
+
+.button-4days-england{
+    flex-direction: column;
+    width: 20%;
+    /* height: 200px; */
+    align-items: center;
+    margin-left: 20px;
+}
+
+.button-4days-england>button{
+/* justify-content: space-evenly; */
+    font-size: 30px;
+    font-weight: 700;
+    font-style: italic;
+    color: #AF9F30;
+    background-color:#5E8BB0;
+    width: 140px;
+    margin-top: 20px; 
+    margin-left: 20px;
+    
+}
+
+.images-4days-england{
+    
+    width: 60%;
+    height:400px;
+}
+
+#first{
+    background: #9BDAC0;
+    width: 100%;
+    margin-left: 30px; 
+    animation-name:modal;
+    animation-duration: 10s;
+    position: relative;
+    
+}
+#first-div{
+    position: relative;
+    display: none;
+}
+
+
+.image-london{
+    
+    margin-top: 60px;
+    margin-left: 100px;
+    width: 640px;
+    height:640px;
+}
+
+.image-london>img{
+    width: 640px;
+    height:640px;
+}
+
+
+#first-div>p{
+    position: absolute;
+    left: 140px;
+    top:60px;
+    font-size: 60px;
+    color:navy;
+    font-style: italic;
+    font-weight: 700;
+}
+
+@keyframes modal{ 
+    from { 
+        right: -1000px; 
+        opacity: 0; 
+     } 
+    to{ 
+        right: 0px; 
+        opacity: 1; 
+     } 
+ } 
+
+#second{
+    background: #9BDAC0;
+    width: 100%;
+    margin-left: 30px; 
+    animation-name:modal;
+    animation-duration: 10s;
+    position: relative;
+    
+}
+#second-div{
+    position: relative;
+    display: none;
+}
+
+
+.image-sevensisters{
+    
+    margin-top: 60px;
+    margin-left: 100px;
+    width: 640px;
+    height:640px;
+}
+
+.image-sevensisters>img{
+    width: 640px;
+    height:640px;
+    /* display: none; */
+}
+
+
+#second-div>p{
+    position: absolute;
+    left: 140px;
+    top:60px;
+    font-size: 60px;
+    color:navy;
+    font-style: italic;
+    font-weight: 700;
+}
+
+#third{
+    background: #9BDAC0;
+    width: 100%;
+    margin-left: 30px; 
+    animation-name:modal;
+    animation-duration: 10s;
+    position: relative;
+    
+}
+#third-div{
+    position: relative;
+    display: none;
+}
+
+
+.image-oxford{
+    
+    margin-top: 60px;
+    margin-left: 100px;
+    width: 640px;
+    height:640px;
+}
+
+.image-oxford>img{
+    width: 640px;
+    height:640px;
+    /* display: none; */
+}
+
+
+#third-div>p{
+    position: absolute;
+    left: 140px;
+    top:60px;
+    font-size: 60px;
+    color:navy;
+    font-style: italic;
+    font-weight: 700;
+}
+
+#forth{
+    background: #9BDAC0;
+    width: 100%;
+    margin-left: 30px; 
+    animation-name:modal;
+    animation-duration: 10s;
+    position: relative;
+    
+}
+#forth-div{
+    position: relative;
+    display: none;
+}
+
+
+.image-cotswols{
+    
+    margin-top: 60px;
+    margin-left: 100px;
+    width: 640px;
+    height:640px;
+}
+
+.image-cotswols>img{
+    width: 640px;
+    height:640px;
+    /* display: none; */
+}
+
+
+#forth-div>p{
+    position: absolute;
+    left: 140px;
+    top:60px;
+    font-size: 60px;
+    color:navy;
+    font-style: italic;
+    font-weight: 700;
+}
+
+
+
+
+
+footer{
+    width: 96%;
+    height: 100px;
+}
+
+footer>p{
+    font-size: 20px;
+    color: #5E8BB0;
+    font-weight: 700;
+    margin-top: 60px;
+    margin-left: 20px;
+}
+
+
+@media(max-width:425px) {
+
+    nav {
+        width: 96%;
+        height:120px;
+        display: flex;
+        /* justify-content: space-between; */
+    }
+
+    nav img{
+        width: 70%;
+        /* border: 2px solid blue; */
+        
+    }
+
+    h1 {
+        font-size: 40px;
+        font-family: 'Courier New', Courier, monospace;
+        font-style: italic;
+        font-weight: bold;
+        color: #5E8BB0;
+        margin-top: 10px;
+        padding-left: 40px;
+    } 
+    
+    .tour_context_england>h2{
+        text-align: center;
+        margin-top: 10px;
+        font-size: 38px;
+        font-weight: 700;
+   }
+   
+    .tour{
+        /* display: flex; */
+        flex-direction: column;
+        margin: auto;
+        width: 96%;
+        height:1000px;
+        /* border: 2px solid red; */
+    }
+    
+    .button-4days-england{
+        flex-direction: column;
+        width: 100%;
+        height: 28%;
+        /* height: 200px; */
+        align-items: center;
+        text-align: center;
+        /* margin-left: 20px; */
+        /* border: 2px solid green; */
+    }
+    
+    .button-4days-england>button{
+    /* justify-content: space-evenly; */
+        font-size: 30px;
+        font-weight: 700;
+        font-style: italic;
+        color: #AF9F30;
+        background-color:#5E8BB0;
+        width: 200px;
+        margin-top: 20px; 
+        /* text-align: center; */
+        /* margin-left: 20px; */
+        
+    }
+    
+    .images-4days-england{
+        
+        width: 80%;
+        height: 70%;
+    }
+    
+    #first{
+        background: #fff;
+        width: 80%;
+        /* margin-left: 30px;  */
+        animation-name:modal;
+        animation-duration: 10s;
+        position: relative;
+        
+    }
+    #first-div{
+        position: relative;
+        display: none;
+    }
+    
+    
+    .image-london{
+        
+        margin-top: 30px;
+        /* margin-left: 100px; */
+        width: 320px;
+        height:320px;
+    }
+    
+    .image-london>img{
+        width: 320px;
+        height:320px;
+    }
+    
+    
+    #first-div>p{
+        position: absolute;
+        left: 140px;
+        top:60px;
+        font-size: 30px;
+        color:navy;
+        font-style: italic;
+        font-weight: 700;
+    }
+    
+    @keyframes modal{ 
+        from { 
+            right: -1000px; 
+            opacity: 0; 
+         } 
+        to{ 
+            right: 0px; 
+            opacity: 1; 
+         } 
+     } 
+    
+    #second{
+        background: #fff;
+        width: 80%;
+        /* margin-left: 30px;  */
+        animation-name:modal;
+        animation-duration: 10s;
+        position: relative;
+        
+    }
+    #second-div{
+        position: relative;
+        display: none;
+    }
+    
+    
+    .image-sevensisters{
+        
+        margin-top: 30px;
+        margin-left: 100px;
+        width: 320px;
+        height:320px;
+    }
+    
+    .image-sevensisters>img{
+        width: 320px;
+        height:320px;
+        /* display: none; */
+    }
+    
+    
+    #second-div>p{
+        position: absolute;
+        left: 140px;
+        top:30px;
+        font-size: 30px;
+        color:navy;
+        font-style: italic;
+        font-weight: 700;
+    }
+    
+    #third{
+        background: #fff;
+        width: 80%;
+        /* margin-left: 30px;  */
+        animation-name:modal;
+        animation-duration: 10s;
+        position: relative;
+        
+    }
+    #third-div{
+        position: relative;
+        display: none;
+    }
+    
+    
+    .image-oxford{
+        
+        margin-top: 30px;
+        margin-left: 100px;
+        width: 320px;
+        height:320px;
+    }
+    
+    .image-oxford>img{
+        width: 320px;
+        height:320px;
+        /* display: none; */
+    }
+    
+    
+    #third-div>p{
+        position: absolute;
+        left: 140px;
+        top:30px;
+        font-size: 30px;
+        color:navy;
+        font-style: italic;
+        font-weight: 700;
+    }
+    
+    #forth{
+        background: #fff;
+        width: 80%;
+        /* margin-left: 30px;  */
+        animation-name:modal;
+        animation-duration: 10s;
+        position: relative;
+        
+    }
+    #forth-div{
+        position: relative;
+        display: none;
+    }
+    
+    
+    .image-cotswols{
+        
+        margin-top: 30px;
+        margin-left: 100px;
+        width: 320px;
+        height:320px;
+    }
+    
+    .image-cotswols>img{
+        width: 320px;
+        height: 320px;
+        /* display: none; */
+    }
+    
+    
+    #forth-div>p{
+        position: absolute;
+        left: 140px;
+        top:30px;
+        font-size: 30px;
+        color:navy;
+        font-style: italic;
+        font-weight: 700;
+    }
+    
+    
+    
+    
+    
+    footer{
+        width: 96%;
+        height: 100px;
+    }
+    
+    footer>p{
+        font-size: 20px;
+        color: #5E8BB0;
+        font-weight: 700;
+        margin-top: 10px;
+        margin-left: 20px;
+    }
+    
+    
+}
+
+
+@media((min-width:426px) and (max-width:768px)) 
+{  
+      
+    .image-cotswols{
+        
+        margin-top: 30px;
+        margin-left: 100px;
+        width: 320px;
+        height:320px;
+    }
+    
+    .image-cotswols>img{
+        width: 320px;
+        height: 320px;
+        /* display: none; */
+    }
+
+    #forth-div>p{
+        position: absolute;
+        left: 140px;
+        top:30px;
+        font-size: 30px;
+        color:navy;
+        font-style: italic;
+        font-weight: 700;
+    }
+
+    .image-oxford{
+        
+        margin-top: 30px;
+        margin-left: 100px;
+        width: 320px;
+        height:320px;
+    }
+    
+    .image-oxford>img{
+        width: 320px;
+        height:320px;
+        /* display: none; */
+    }
+    
+    
+    #third-div>p{
+        position: absolute;
+        left: 140px;
+        top:30px;
+        font-size: 30px;
+        color:navy;
+        font-style: italic;
+        font-weight: 700;
+    }
+
+    
+    
+    .image-sevensisters{
+        
+        margin-top: 30px;
+        margin-left: 100px;
+        width: 320px;
+        height:320px;
+    }
+    
+    .image-sevensisters>img{
+        width: 320px;
+        height:320px;
+        /* display: none; */
+    }
+    
+    
+    #second-div>p{
+        position: absolute;
+        left: 140px;
+        top:30px;
+        font-size: 30px;
+        color:navy;
+        font-style: italic;
+        font-weight: 700;
+    }
+
+    .image-london{
+        
+        margin-top: 30px;
+        /* margin-left: 100px; */
+        width: 320px;
+        height:320px;
+    }
+    
+    .image-london>img{
+        width: 320px;
+        height:320px;
+    }
+    
+    
+    #first-div>p{
+        position: absolute;
+        left: 140px;
+        top:60px;
+        font-size: 30px;
+        color:navy;
+        font-style: italic;
+        font-weight: 700;
+    }
+
+    .tour_context_england{
+        text-align: center;
+        height: 60px;
+    }
+
+    .tour_context_england>h2{
+        text-align: center;
+        margin-top: 30px;
+        font-size: 30px;
+        font-weight: 700;
+       
+   }
+
+   nav {
+        width: 96%;
+        height:120px;
+        display: flex;
+    
+        /* justify-content: space-between; */
+    }
+
+    nav img{
+        width: 70%;
+    
+    
+    
+        /* border: 2px solid blue; */
+    
+    }
+
+    h1 {
+        font-size: 50px;
+        font-family: 'Courier New', Courier, monospace;
+    
+    
+        font-style: italic;
+        font-weight: bold;
+        color: #5E8BB0;
+        margin-top: 10px;
+        padding-left: 10px;
+    } 
+
+}
